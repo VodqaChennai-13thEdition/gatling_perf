@@ -18,5 +18,7 @@ class GoogleSearchSimulation extends Simulation {
   val scn = PhpLoginScenario.loginScenario
 
   setUp(scn.inject(atOnceUsers(5)))
-    .protocols(httpSetup).assertions(forAll.failedRequests.count.is(0))
+    .protocols(httpSetup).assertions(global.responseTime.max.lessThan(1200),
+                                      forAll.failedRequests.count.is(0))
+
 }
