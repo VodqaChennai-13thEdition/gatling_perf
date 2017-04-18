@@ -8,4 +8,3 @@
 	1.5 Execute the script and generate the report
 	1.6 Look at the various assertions and rampup techniques
 3. Simulate the load on Web services.
-
