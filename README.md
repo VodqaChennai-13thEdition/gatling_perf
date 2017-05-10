@@ -1,7 +1,7 @@
-GATLING:
+## GATLING:
 Powerful open-source Performance Test tool released in December, 2011. Gatling is a lightweight DSL written in Scala that comes with the interesting premise of "treating your performance tests as production code".
 
-Steps for setting up Mac
+### Steps for setting up Mac
 1. Install Homebrew
 
 Run this command on the terminal:
@@ -28,7 +28,7 @@ We have used community edition of Intellij from https://www.jetbrains.com/idea/
 
 On Startup IntelliJ gives an option to add Scala plugin. You can check it and install on launching IntelliJ for the first time. Otherwise, as soon as you add “apply plugin: “scala” in your build.gradle, IntelliJ prompts you to download scala plugin.
 
-Steps for setting up Windows
+### Steps for setting up Windows
 1. Install Java(JRE & JDK)
 
 2. Install gradle
