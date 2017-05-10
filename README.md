@@ -41,7 +41,7 @@ We have used community edition of Intellij from https://www.jetbrains.com/idea/
 
 On Startup IntelliJ gives an option to add Scala plugin. You can check it and install on launching IntelliJ for the first time. Otherwise, as soon as you add “apply plugin: “scala” in your build.gradle, IntelliJ prompts you to download scala plugin.
 
-GATLING RECORDER:
+## GATLING RECORDER:
 
 Step 1 : Configure Browser
 Change the proxy settings, give address as 'localhost' and port as say - 8080
@@ -52,14 +52,15 @@ $sh recorder.sh
 
 For Windows: Go to the bin folder of Gatling bundle and open the "recorder.bat" file
 
->Enter the port number in localhost box - 8080
->Enter the package and class name
->Check “Follow Redirects”, “Infer HTML resources”, “Remove Cache Headers” and “Automatic Referrers” options
->Click on Start button
+- Enter the port number in localhost box - 8080
+- Enter the package and class name
+- Check “Follow Redirects”, “Infer HTML resources”, “Remove Cache Headers” and “Automatic Referrers” options
+- Click on Start button
 
->Record the scenario you want to test
->Close the browser
->Click on “Stop & save” button and Gatling recorder window is closed
+- Record the scenario you want to test
+- Close the browser
+- Click on “Stop & save” button and Gatling recorder window is closed
+
 
 Note: for more info on the options on recorder, please refer http://gatling.io/docs/current/http/recorder/
 
@@ -69,7 +70,7 @@ $sh gatling.sh
 
 For Windows: Go to the bin folder of Gatling bundle and open the "gatling.bat" file
 
->Select the file to be executed, enter the simulation number and enter the simulation description (optional)
+- Select the file to be executed, enter the simulation number and enter the simulation description (optional)
 
 Step 4 : Viewing results
 Results would be generated in HMRL format on running the simulation file as mentioned in Step 3. Open the html file in any browser to view the same.
