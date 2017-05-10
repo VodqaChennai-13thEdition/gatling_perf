@@ -75,9 +75,9 @@ Results would be generated in HMRL format on running the simulation file as ment
 
 Note: For more on understanding the results, refer : http://gatling.io/docs/current/general/reports/
 
-Gatling structure can be defined in 4 different parts:
+### Gatling structure can be defined in 4 different parts:
 
-1) HTTP protocol configuration – This will define your base URL that you will be running your tests against. Also, you can define some other configurations such as user agent, language header, connection and so on.
-2) Headers definition – This provides the headers for each request that will be sent to the server. This is relevant because the headers also add a bit of load to the server you are testing.
-3) Scenario definition - The core of your test! A Scenario is a group of actions (GET, POST, etc.) that will be executed in order to simulate a user interaction with your application.
-4) Simulation definition - This defines the load (amount of users) that will concurrently execute your scenario for a period of time.
+1. HTTP protocol configuration – This will define your base URL that you will be running your tests against. Also, you can define some other configurations such as user agent, language header, connection and so on.
+2. Headers definition – This provides the headers for each request that will be sent to the server. This is relevant because the headers also add a bit of load to the server you are testing.
+3. Scenario definition - The core of your test! A Scenario is a group of actions (GET, POST, etc.) that will be executed in order to simulate a user interaction with your application.
+4. Simulation definition - This defines the load (amount of users) that will concurrently execute your scenario for a period of time.
