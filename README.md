@@ -81,3 +81,7 @@ Note: For more on understanding the results, refer : http://gatling.io/docs/curr
 2. Headers definition – This provides the headers for each request that will be sent to the server. This is relevant because the headers also add a bit of load to the server you are testing.
 3. Scenario definition - The core of your test! A Scenario is a group of actions (GET, POST, etc.) that will be executed in order to simulate a user interaction with your application.
 4. Simulation definition - This defines the load (amount of users) that will concurrently execute your scenario for a period of time.
+
+### Running the simulation scripts in terminal (For Mac):
+Use the following command (Here 'simulation1' is the name of the task mentioned in build.gradle file):
+./gradlew simulation1 
