@@ -84,4 +84,5 @@ Note: For more on understanding the results, refer : http://gatling.io/docs/curr
 
 ### Running the simulation scripts in terminal (For Mac):
 Use the following command (Here 'simulation1' is the name of the task mentioned in build.gradle file):
+
 ./gradlew simulation1 
