@@ -3,30 +3,28 @@ Powerful open-source Performance Test tool released in December, 2011. Gatling i
 
 ### Steps for setting up Mac
 1. Install Homebrew
-
-Run this command on the terminal:
-
-/usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
-
+ 
+ Run this command on the terminal: 
+ /usr/bin/ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+ 
 2. Install Java and
-
-Now that you have homebrew,you can get JDK using Homebrew cask.
-
-$ brew cask install java
-
+ 
+ Now that you have homebrew,you can get JDK using Homebrew cask.
+ $ brew cask install java
+ 
 3. Install gradle
-
-We have installed using homebrew
-
-$ brew install gradle
+ 
+ We have installed using homebrew
+ $ brew install gradle
 
 4. Install the IDE (optional)
+ 
+5. We have used community edition of Intellij from https://www.jetbrains.com/idea/
+ 
+ Add Scala plugin to IDE
+ On Startup IntelliJ gives an option to add Scala plugin. You can check it and install on launching IntelliJ for the first time. Otherwise, as soon as you add “apply plugin: “scala” in your build.gradle, IntelliJ prompts you to download scala plugin.
 
-We have used community edition of Intellij from https://www.jetbrains.com/idea/
 
-5. Add Scala plugin to IDE
-
-On Startup IntelliJ gives an option to add Scala plugin. You can check it and install on launching IntelliJ for the first time. Otherwise, as soon as you add “apply plugin: “scala” in your build.gradle, IntelliJ prompts you to download scala plugin.
 
 ### Steps for setting up Windows
 1. Install Java(JRE & JDK)
